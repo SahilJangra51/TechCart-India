@@ -1,0 +1,187 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCart India - Electronics Components</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0f172a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #1e293b;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+        .product h4 {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        .product p {
+            font-size: 14px;
+            color: green;
+        }
+        .product button {
+            padding: 6px 12px;
+            margin: 5px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .total {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 18px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .total del {
+            color: red;
+            margin-right: 10px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e293b;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TechCart India</h1>
+        <p>Your one-stop shop for electronics components</p>
+    </header>
+    <nav>
+        <a href="#">Microcontrollers</a>
+        <a href="#">Sensors</a>
+        <a href="#">Modules</a>
+        <a href="#">Power</a>
+    </nav>
+    <div class="container">
+        <div class="products">
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/h8rw6mlb6du22hdxh7lr1/WhatsApp-Image-2025-07-26-at-13.25.03_13e20581.jpg?rlkey=fw298lu14k0s293u2oqjwr5jq&st=bfw1bws0&dl=0" alt="Arduino Nano">
+                <h4>Arduino Nano</h4>
+                <p>₹179</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/zx3b7n8k57nzp9fm1cq33/WhatsApp-Image-2025-07-26-at-13.25.35_aa6709ac.jpg?rlkey=gtr6zohwx464hmel7sjgr47at&st=dkt1ditg&dl=0" alt="RC522 RFID Module">
+                <h4>RC522 RFID Module</h4>
+                <p>₹120</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/jjmu7j1mgrdl2k913ico8/WhatsApp-Image-2025-07-26-at-13.26.13_659cfe50.jpg?rlkey=c268ey98lenbejofuv4t5n6b7&st=7aokumgb&dl=0" alt="3x4 Matrix Keypad">
+                <h4>3x4 Matrix Keypad</h4>
+                <p>₹90</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/zyxvisfupmye5c61u9p8s/WhatsApp-Image-2025-07-26-at-13.26.52_41349806.jpg?rlkey=v3xyciw9ifcioe26efkz81pwz&st=hiww1vn6&dl=0" alt="16x2 LCD Display">
+                <h4>16x2 LCD Display (no I2C)</h4>
+                <p>₹130</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/j7nw2z4iyoy8evo510jw1/WhatsApp-Image-2025-07-26-at-13.27.22_45a3e165.jpg?rlkey=k23fgf2mmwi6w79uncxofqkfc&st=81qy6s1f&dl=0" alt="1-Channel Relay">
+                <h4>1-Channel Relay Module</h4>
+                <p>₹70</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/0r41ijsczsnk366bjzod2/WhatsApp-Image-2025-07-26-at-13.28.11_e99c689e.jpg?rlkey=umhwlv8bv5y0avjq7mqw1e6vw&st=moxex4g3&dl=0" alt="12V Solenoid Lock">
+                <h4>12V Solenoid Door Lock</h4>
+                <p>₹400</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/chwwtcc7la2pbo5ef9r82/WhatsApp-Image-2025-07-26-at-13.28.46_3c6368e3.jpg?rlkey=zlcaz6yz2xcc42z1nw7dj9qqq&st=rvbxecfm&dl=0" alt="Reed Switch">
+                <h4>Reed Switch</h4>
+                <p>₹35</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/sjdf26ys238oepsbrxg6v/WhatsApp-Image-2025-07-26-at-13.29.07_3d424928.jpg?rlkey=tniwwlzua7l4f4ndozkjxgvav&st=knakjhpl&dl=0" alt="TTP223 Touch Sensor">
+                <h4>Capacitive Touch Sensor</h4>
+                <p>₹40</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/rcv3wfd4sosrn9tajmmxk/WhatsApp-Image-2025-07-26-at-13.29.30_f6e0787e.jpg?rlkey=n7u70lxg9ojnmmn0tbdnv5fsu&st=qkmpclp7&dl=0" alt="Jumper Wires">
+                <h4>Jumper Wires (Set)</h4>
+                <p>₹45</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/emq25zh76cu9cigx84eqt/WhatsApp-Image-2025-07-26-at-13.31.47_4b99e64c.jpg?rlkey=0cfm0fymoyotwtbup8azqwzs1&st=mvvhwqzk&dl=0" alt="12V Adapter">
+                <h4>12V Adapter</h4>
+                <p>₹400</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/t6tit8899ie1eqtab35c1/WhatsApp-Image-2025-07-26-at-13.32.06_2c1c2b70.jpg?rlkey=icllgon8mnptmpjnyhoabgjvy&st=qflg9yi6&dl=0" alt="7805 Regulator">
+                <h4>Voltage Regulator (7805)</h4>
+                <p>₹20</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://www.dl.dropboxusercontent.com/scl/fi/2uhqxocd7eolm9j4l7ruy/WhatsApp-Image-2025-07-26-at-13.32.29_a0ab43a2.jpg?rlkey=p0k1a7x8j68kvzxb5gmst1d64&st=8ai253tq&dl=0" alt="Resistors">
+                <h4>Resistors (Pack)</h4>
+                <p>₹10</p>
+                <button>Add to Cart</button><button>Buy Now</button>
+            </div>
+        </div>
+        <div class="total">
+            <p>Total Price: <del>₹1,240</del> <strong>₹1,050</strong> (Discount Applied!)</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 TechCart India. All rights reserved.</p>
+    </div>
+</body>
+</html>
